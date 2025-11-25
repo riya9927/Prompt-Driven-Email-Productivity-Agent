@@ -2,7 +2,7 @@
 
 An intelligent, prompt-driven Email Productivity Agent powered by Claude AI that automates email management through categorization, action-item extraction, and auto-drafting replies.
 
-## 🌟 Features
+## Features
 
 - **Email Categorization**: Automatically categorizes emails into Important, Newsletter, Spam, or To-Do
 - **Action Item Extraction**: Identifies and extracts tasks with deadlines from emails
@@ -11,12 +11,12 @@ An intelligent, prompt-driven Email Productivity Agent powered by Claude AI that
 - **Prompt Configuration**: Fully customizable AI behavior through editable prompts
 - **Mock Inbox**: Pre-loaded sample emails for testing and demonstration
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - Anthropic API Key (optional - system works with mock responses)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 
@@ -68,7 +68,7 @@ streamlit run streamlit_app.py
 
 The frontend will open automatically in your browser at `http://localhost:8501`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 email-productivity-agent/
@@ -90,7 +90,7 @@ email-productivity-agent/
 └── README.md                       # This file
 ```
 
-## 🎯 Usage Guide
+## Usage Guide
 
 ### Loading the Mock Inbox
 
@@ -130,7 +130,7 @@ email-productivity-agent/
    - **Auto-Reply**: How responses are drafted
 3. Click **Save Prompts** to apply changes
 
-## 🔧 Configuration
+## Configuration
 
 ### Prompt Templates
 
@@ -185,44 +185,7 @@ ANTHROPIC_API_KEY=your_api_key_here
 - `DELETE /api/drafts/<id>` - Delete draft
 - `POST /api/drafts/generate` - Generate AI draft
 
-## 🎬 Demo Video Script
-
-A 5-10 minute demo should cover:
-
-1. **Introduction (1 min)**
-   - Show the UI overview
-   - Explain the three main tabs
-
-2. **Loading Inbox (1 min)**
-   - Click "Load Mock Inbox"
-   - Show the 12 sample emails loaded
-
-3. **Prompt Configuration (2 min)**
-   - Navigate to Prompt Configuration
-   - Show the three default prompts
-   - Edit one prompt (e.g., add new category)
-   - Save changes
-
-4. **Email Processing (2 min)**
-   - Click "Process All Emails"
-   - Show emails being categorized
-   - Display action items extracted
-   - View different categories (Important, To-Do, Newsletter, Spam)
-
-5. **Email Agent Chat (2-3 min)**
-   - Ask "What are my urgent emails?"
-   - Ask "List all my tasks"
-   - Select an email
-   - Ask "Summarize this email"
-   - Ask "Draft a reply"
-
-6. **Draft Management (1 min)**
-   - Go to Drafts tab
-   - Show generated draft
-   - Edit the draft
-   - Explain that drafts are never sent automatically
-
-## 🧪 Testing Without API Key
+## Testing Without API Key
 
 The system includes mock LLM responses for testing without an Anthropic API key:
 
@@ -232,14 +195,14 @@ The system includes mock LLM responses for testing without an Anthropic API key:
 
 This allows full demonstration of functionality without API costs.
 
-## 🛡️ Safety Features
+## Safety Features
 
 - **No Auto-Sending**: Drafts are stored, never sent automatically
 - **Error Handling**: Graceful degradation if LLM fails
 - **Mock Mode**: Full functionality without API key
 - **Data Persistence**: SQLite database for reliable storage
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Backend won't start
 - Check if port 5000 is available
@@ -260,7 +223,7 @@ This allows full demonstration of functionality without API costs.
 - Delete `data/email_agent.db` and restart
 - Check write permissions in data/ directory
 
-## 📝 Mock Inbox Content
+## Mock Inbox Content
 
 The mock inbox includes:
 - Urgent project meeting requests
@@ -272,7 +235,7 @@ The mock inbox includes:
 - Team event invitations
 - Training reminders
 
-## 🔄 Development
+## Development
 
 ### Adding New Email Sources
 
@@ -302,7 +265,7 @@ if 'schedule' in query_lower:
     pass
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ### Backend
 - Flask 3.0.0 - Web framework
@@ -314,7 +277,7 @@ if 'schedule' in query_lower:
 - Streamlit 1.29.0 - Web UI framework
 - Requests 2.31.0 - HTTP client
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -322,21 +285,3 @@ if 'schedule' in query_lower:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
-
-This project is created for educational purposes.
-
-## 🙏 Acknowledgments
-
-- Built with Claude AI by Anthropic
-- UI powered by Streamlit
-- Backend using Flask
-
-## 📧 Support
-
-For issues or questions:
-1. Check the troubleshooting section
-2. Review API documentation
-3. Open an issue on GitHub
-
----
