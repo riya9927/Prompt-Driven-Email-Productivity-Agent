@@ -28,26 +28,16 @@ cd email-productivity-agent
 ### 2. Backend Setup
 
 ```bash
-# Navigate to backend directory
 cd backend
 
-# Create virtual environment
 python -m venv venv
 
-# Activate virtual environment
-# On Windows:
 venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
 
-# Install dependencies
 pip install -r requirements.txt
 
-# Create .env file (optional)
-# Add your Anthropic API key if you have one
 echo "ANTHROPIC_API_KEY=your_api_key_here" > .env
 
-# Run the backend server
 python app.py
 ```
 
@@ -56,13 +46,10 @@ The backend will start at `http://localhost:5000`
 ### 3. Frontend Setup (New Terminal)
 
 ```bash
-# Navigate to project root
 cd email-productivity-agent
 
-# Install frontend dependencies
 pip install -r requirements.txt
 
-# Run Streamlit app
 streamlit run streamlit_app.py
 ```
 
@@ -73,21 +60,21 @@ The frontend will open automatically in your browser at `http://localhost:8501`
 ```
 email-productivity-agent/
 ├── backend/
-│   ├── app.py                      # Flask API server
-│   ├── requirements.txt            # Backend dependencies
+│   ├── app.py                      
+│   ├── requirements.txt            
 │   ├── models/
-│   │   └── database.py            # Database operations
+│   │   └── database.py          
 │   ├── services/
-│   │   ├── email_service.py       # Email management logic
-│   │   ├── llm_service.py         # AI/LLM integration
-│   │   └── prompt_service.py      # Prompt management
+│   │   ├── email_service.py       
+│   │   ├── llm_service.py      
+│   │   └── prompt_service.py      
 │   └── data/
-│       ├── email_agent.db         # SQLite database (auto-created)
-│       └── mock_inbox.json        # Sample emails (auto-created)
-├── streamlit_app.py                # Streamlit UI
-├── requirements.txt                # Frontend dependencies
-├── .env                            # Environment variables
-└── README.md                       # This file
+│       ├── email_agent.db        
+│       └── mock_inbox.json       
+├── streamlit_app.py                
+├── requirements.txt               
+├── .env                            
+└── README.md                      
 ```
 
 ## Usage Guide
@@ -243,7 +230,6 @@ Edit `services/email_service.py` to add new email sources:
 
 ```python
 def load_from_gmail(self):
-    # Implement Gmail API integration
     pass
 ```
 
@@ -261,7 +247,6 @@ Add new chat commands in `services/llm_service.py`:
 
 ```python
 if 'schedule' in query_lower:
-    # Handle scheduling logic
     pass
 ```
 
