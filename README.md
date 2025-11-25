@@ -1,4 +1,4 @@
-# Email Productivity Agent
+# Prompt Driven Email Productivity Agent
 
 An intelligent, prompt-driven Email Productivity Agent powered by Claude AI that automates email management through categorization, action-item extraction, and auto-drafting replies.
 
