@@ -11,6 +11,10 @@ An intelligent, prompt-driven Email Productivity Agent powered by Claude AI that
 - **Prompt Configuration**: Fully customizable AI behavior through editable prompts
 - **Mock Inbox**: Pre-loaded sample emails for testing and demonstration
 
+## System Architecture Diagram
+
+![System Architecture Diagram](PromptDrivenEmailProductivityAgent.png)
+
 ## Requirements
 
 - Python 3.8+
@@ -149,7 +153,7 @@ ANTHROPIC_API_KEY=your_api_key_here
 
 **Note:** If no API key is provided, the system uses mock responses for testing.
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Emails
 - `GET /api/emails` - Get all emails
