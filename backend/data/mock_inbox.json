@@ -1,0 +1,74 @@
+[
+  {
+    "sender": "john.doe@company.com",
+    "subject": "Q4 Project Meeting - Urgent",
+    "body": "Hi team, we need to schedule our Q4 planning meeting ASAP. Can everyone share their availability for next week? We need to finalize the budget by Friday. This is critical for our project timeline.",
+    "timestamp": "2024-11-24T09:30:00"
+  },
+  {
+    "sender": "newsletter@techdigest.com",
+    "subject": "Weekly Tech News Digest",
+    "body": "Here are this week's top technology stories: AI breakthroughs in natural language processing, new smartphone releases from major manufacturers, and the latest cybersecurity updates. Read more about the latest developments in machine learning, cloud computing innovations, and emerging technologies.",
+    "timestamp": "2024-11-24T08:00:00"
+  },
+  {
+    "sender": "sales@promosale.com",
+    "subject": "LIMITED TIME OFFER - 90% OFF!!!",
+    "body": "Click here now to claim your exclusive discount! This offer won't last long! Act fast before it expires! Buy now and save thousands! Don't miss out on this incredible deal! Limited quantities available!",
+    "timestamp": "2024-11-24T07:15:00"
+  },
+  {
+    "sender": "sarah.manager@company.com",
+    "subject": "Action Required: Timesheet Submission",
+    "body": "Please submit your timesheet for the week ending November 22nd by EOD tomorrow. This is required for payroll processing. Make sure all hours are accurately recorded and approved by your supervisor.",
+    "timestamp": "2024-11-23T16:45:00"
+  },
+  {
+    "sender": "project.updates@company.com",
+    "subject": "Project Alpha - Status Update",
+    "body": "Project Alpha is currently 75% complete. Next milestone: Complete testing phase by Nov 30th. Please review the attached progress report and provide feedback by end of week. The team has made excellent progress on the core features.",
+    "timestamp": "2024-11-23T14:20:00"
+  },
+  {
+    "sender": "hr@company.com",
+    "subject": "Reminder: Annual Review Due",
+    "body": "Your annual self-review is due by December 1st. Please complete the form in the HR portal and schedule a meeting with your manager to discuss your performance, achievements, and goals for next year.",
+    "timestamp": "2024-11-23T11:00:00"
+  },
+  {
+    "sender": "client@external.com",
+    "subject": "Meeting Request - Product Demo",
+    "body": "We'd like to schedule a product demonstration for our team. Would you be available sometime next week? We have about 10 stakeholders interested in attending. Please let us know your availability and we can coordinate the schedule.",
+    "timestamp": "2024-11-22T15:30:00"
+  },
+  {
+    "sender": "noreply@socialmedia.com",
+    "subject": "You have 47 new notifications",
+    "body": "Check out what's happening on your social media: 15 likes on your recent post, 12 comments from your friends, 20 friend requests waiting for approval. Click here to see all your notifications and stay connected!",
+    "timestamp": "2024-11-22T10:00:00"
+  },
+  {
+    "sender": "support@vendor.com",
+    "subject": "Your Support Ticket #12345 - Resolved",
+    "body": "Your support ticket regarding the software issue has been resolved. The bug fix will be included in the next release scheduled for December 5th. Please verify the solution works for you and let us know if you need any further assistance.",
+    "timestamp": "2024-11-21T14:00:00"
+  },
+  {
+    "sender": "team@company.com",
+    "subject": "Team Lunch - Friday 12:30 PM",
+    "body": "Join us for team lunch this Friday at 12:30 PM at the Italian restaurant downtown. Please RSVP by Thursday so we can make a reservation. Looking forward to seeing everyone there!",
+    "timestamp": "2024-11-21T09:00:00"
+  },
+  {
+    "sender": "finance@company.com",
+    "subject": "Expense Report Approval Needed",
+    "body": "Your expense report for October travel is pending approval. Please review the submitted expenses and approve or reject them by end of week. Total amount: $1,247.89. Any questions, please contact the finance team.",
+    "timestamp": "2024-11-20T16:00:00"
+  },
+  {
+    "sender": "training@company.com",
+    "subject": "Mandatory Security Training",
+    "body": "All employees must complete the cybersecurity training module by November 30th. The training takes approximately 2 hours and covers important security protocols, phishing awareness, and data protection. Login to the training portal to get started.",
+    "timestamp": "2024-11-20T10:30:00"
+  }
+]
